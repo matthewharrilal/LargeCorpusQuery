@@ -19,7 +19,7 @@ class SceneDelegate: UIResponder, UIWindowSceneDelegate {
         guard let _ = (scene as? UIWindowScene) else { return }
         
         window?.rootViewController = SearchViewController(
-            treeService: TrieTreeImplementation(),
+            treeService: SuffixTreeImplementation(),
             decodingService: DecodingImplementation()
         )
         window?.makeKeyAndVisible()

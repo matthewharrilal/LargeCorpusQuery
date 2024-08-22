@@ -44,9 +44,11 @@ class SearchViewController: UIViewController {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
         
-        articleNames.forEach { treeService.insert(phrase: $0) }
+//        articleNames.forEach { treeService.insert(phrase: $0) }
         
-        defer { treeService.search(phrase: "15") }
+        treeService.insert(phrase: "minimize")
+        treeService.prettyPrint()
+//        defer { treeService.search(phrase: "15") }
     }
 }
 

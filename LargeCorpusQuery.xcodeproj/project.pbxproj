@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		762E88FC2C76CC5E0077238D /* SuffixTreeService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 762E88FB2C76CC5E0077238D /* SuffixTreeService.swift */; };
 		76D2A77C2C751EC10096C476 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76D2A77B2C751EC10096C476 /* AppDelegate.swift */; };
 		76D2A77E2C751EC10096C476 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76D2A77D2C751EC10096C476 /* SceneDelegate.swift */; };
 		76D2A7802C751EC10096C476 /* SearchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76D2A77F2C751EC10096C476 /* SearchViewController.swift */; };
@@ -40,6 +41,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		762E88FB2C76CC5E0077238D /* SuffixTreeService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SuffixTreeService.swift; sourceTree = "<group>"; };
 		76D2A7782C751EC10096C476 /* LargeCorpusQuery.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LargeCorpusQuery.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		76D2A77B2C751EC10096C476 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		76D2A77D2C751EC10096C476 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -151,6 +153,7 @@
 			children = (
 				76D2A7AB2C751F4F0096C476 /* TrieTreeService.swift */,
 				76D2A7B72C766D850096C476 /* DecodingService.swift */,
+				762E88FB2C76CC5E0077238D /* SuffixTreeService.swift */,
 			);
 			path = Services;
 			sourceTree = "<group>";
@@ -295,6 +298,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				762E88FC2C76CC5E0077238D /* SuffixTreeService.swift in Sources */,
 				76D2A7802C751EC10096C476 /* SearchViewController.swift in Sources */,
 				76D2A7AC2C751F4F0096C476 /* TrieTreeService.swift in Sources */,
 				76D2A77C2C751EC10096C476 /* AppDelegate.swift in Sources */,
